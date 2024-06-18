@@ -1,11 +1,14 @@
 import './App.css';
 import React from 'react';
-import MainPage from './MainPage'; // MainPage 컴포넌트를 import합니다.
+import Library from './3주차/Library';
+import Clock from './4주차/Clock';
 
 function App() {
   return (
     <div className="App">
-        <MainPage /> {/* MainPage 컴포넌트를 여기에서 렌더링합니다. */}
+      <React.StrictMode>
+        <Clock></Clock>
+      </React.StrictMode>
     </div>
   );
 }
