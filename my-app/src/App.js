@@ -13,14 +13,16 @@ import ConfirmButton from './8주차/ConfirmButton';
 import LoginControl from './9주차/LoginControl';
 import MainPage from './9주차/Mailbox';
 import LandingPage from './9주차/LandingPage';
+import AttendanceBook from './10주차/AttendanceBook';
 
 
 
 function App() {
+  
   return (
     <div className="App">
       <React.StrictMode>
-        <LandingPage></LandingPage>
+        <AttendanceBook></AttendanceBook>
       </React.StrictMode>
     </div>
   );
