@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import React, {useState, useContext} from "react";
 
 const Wrapper = styled.div`
     padding: 1rem;
