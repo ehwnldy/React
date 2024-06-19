@@ -2,12 +2,7 @@ import styled from "styled-components";
 import React, {useState, useContext} from "react";
 
 const Wrapper = styled.div`
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    background-color: lightgrey;
+
 `;
 
 const Block = styled.div`
